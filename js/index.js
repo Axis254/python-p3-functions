@@ -4,7 +4,7 @@
   => "Hello, programmer!"
 */
 function greetProgrammer() {
-  console.log("Hello, programmer!");
+  console.log("Hello, programmer!\n");
 }
 
 /*
@@ -13,7 +13,7 @@ function greetProgrammer() {
   => "Hello, Naureen!"
 */
 function greet(name) {
-  console.log(`Hello, ${name}!`);
+  console.log(`Hello, ${name}!\n`);
 }
 
 /*
@@ -26,7 +26,7 @@ function greet(name) {
   => "Hello, Sunny!"
 */
 function greetWithDefault(name = "programmer") {
-  console.log(`Hello, ${name}!`);
+  console.log(`Hello, ${name}!\n`);
 }
 
 /*
